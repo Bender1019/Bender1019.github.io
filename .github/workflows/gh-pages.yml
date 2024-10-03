@@ -1,0 +1,36 @@
+name: pages
+
+on:
+  push:
+    branches:
+      - main  # 设置为你的默认分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # 如果使用了 Git Submodule，需要设置为 true
+
+      - name: 设置 Go 环境
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23'  # 使用适合的 Go 版本
+
+      - name: 安装 Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.135.0'
+          extended: true
+
+      - name: 构建网站
+        run: hugo --minify
+
+      - name: 部署到 GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

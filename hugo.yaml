@@ -1,5 +1,5 @@
-baseURL: "https://Bender1019.github.io/"
-title: myblog
+baseURL: "https://bender1019.github.io/"
+title: bender's blog
 paginate: 5
 theme: PaperMod
 
