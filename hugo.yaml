@@ -70,7 +70,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: I'm Bender. Welcome to my blog. Here, I share my experiences and lessons from both learning and life.
+    Content: This is where I document and share experiences from AI and personal insights.
 
   #socialIcons:
   #  - name: x
