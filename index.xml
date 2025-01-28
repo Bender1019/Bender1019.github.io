@@ -18,8 +18,16 @@
       <link>https://bender1019.github.io/posts/page/</link>
       <pubDate>Thu, 03 Oct 2024 23:39:06 +0800</pubDate>
       <guid>https://bender1019.github.io/posts/page/</guid>
-      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;this is a test&lt;/h1&gt;
-&lt;p&gt;这是一个测试&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;this-is-a-formula&#34;&gt;this is a formula&lt;/h1&gt;
+&lt;p&gt;这是一个formula
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$&lt;/p&gt;
+&lt;h1 id=&#34;this-is-an-image&#34;&gt;this is an image&lt;/h1&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://bender1019.github.io/images/generated_robot.png&#34;
+         alt=&#34;test&#34; width=&#34;20%&#34; height=&#34;auto&#34;/&gt; 
+&lt;/figure&gt;</description>
     </item>
   </channel>
 </rss>
