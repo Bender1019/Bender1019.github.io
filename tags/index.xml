@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 03 Oct 2024 23:39:06 +0800</lastBuildDate>
     <atom:link href="https://bender1019.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement_learning</title>
+      <link>https://bender1019.github.io/tags/reinforcement_learning/</link>
+      <pubDate>Thu, 03 Oct 2024 23:39:06 +0800</pubDate>
+      <guid>https://bender1019.github.io/tags/reinforcement_learning/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
